@@ -25,3 +25,7 @@ spec:
       allowEmpty: false
     syncOptions:
       - CreateNamespace=true
+  resources:
+    - resources/namespace.yaml
+    - apps/argocd.yaml
+    - apps/kube_prometheus_stack.yaml
